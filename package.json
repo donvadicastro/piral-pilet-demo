@@ -2,11 +2,13 @@
   "name": "@donvadicastro/intapp-pilet-demo",
   "version": "1.0.3",
   "description": "",
-  "keywords": ["pilet"],
+  "keywords": [
+    "pilet"
+  ],
   "importmap": {
-    "inherit": ["@donvadicastro/intapp-host-demo"]
-  },
-  "dependencies": {
+    "inherit": [
+      "@donvadicastro/intapp-host-demo"
+    ]
   },
   "devDependencies": {
     "@dbeining/react-atom": "4.1.21",
@@ -25,6 +27,8 @@
     "piral-cli-webpack5": "0.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.8.0",
+    "react-router-dom": "^6.8.0",
     "tslib": "1.14.1",
     "typescript": "latest"
   },
@@ -35,7 +39,9 @@
     "debug": "pilet debug --feed https://feed.piral.cloud/api/v1/pilet/intapp-test-feed"
   },
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "piral": {
     "comment": "Keep this section to use the Piral CLI.",
     "name": "@donvadicastro/intapp-host-demo"
