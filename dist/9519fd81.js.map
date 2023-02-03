@@ -1,0 +1,1 @@
+{"version":3,"file":"9519fd81.js","mappings":";;;;;;;;;;;;;;AAAA;AAEA;AACA;AACA","sources":["webpack://pr_donvadicastrointapppiletdemo/./src/components/Menu.tsx"],"sourcesContent":["import * as React from 'react';\r\n\r\nexport const Menu: React.FC<any> = () => {\r\n  return <>SOME CUSTOM MENU</>;\r\n};\r\n"],"names":[],"sourceRoot":""}
