@@ -5,7 +5,7 @@ import { Tile } from './components/Tile';
 import { Page } from './components/Page';
 
 export function setup(app: PiletApi) {
-  app.registerPage('/productPage', Page);
+  app.registerPage('/users', Page);
   app.registerTile(Tile);
   app.registerMenu(Menu);
 }
