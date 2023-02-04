@@ -1,1 +1,0 @@
-{"version":3,"file":"683c72d9.js","mappings":";;;;;;;;;;;;;;AAAA;AAEA;AACA;AAAA;AAAA;AACA","sources":["webpack://pr_donvadicastrointapppiletdemo/./src/components/Page.tsx"],"sourcesContent":["import * as React from 'react';\r\n\r\nexport const Page: React.FC<any> = () => {\r\n  return <div className=\"container\">PAGE CONTENT</div>;\r\n};\r\n"],"names":[],"sourceRoot":""}
