@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 export const Tile: React.FC<any> = () => {
   return (
@@ -18,10 +18,7 @@ export const Tile: React.FC<any> = () => {
             <strong>12</strong> admins registered with tenant
           </li>
         </ul>
-        <button
-          type="button"
-          className="btn btn-lg btn-block btn-outline-primary"
-        >
+        <button type="button" className="btn btn-lg btn-block btn-primary">
           Manage users
         </button>
       </div>
