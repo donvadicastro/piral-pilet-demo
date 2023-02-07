@@ -1,8 +1,12 @@
-import * as React from 'react';
+import * as React from "react";
 
 export const Page: React.FC<any> = () => {
-  return <div className="container">
-    <h1>Users page</h1>
-    <p>Some content</p>
-  </div>;
+  return (
+    <div className="c-portal">
+      <h2>Users page</h1>
+      <div className="js-portal-custom-widget">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid veniam distinctio corrupti quasi consequuntur illo alias id omnis illum, dolor voluptatem accusamus? Veniam nostrum cumque sit illum, vel odit debitis?
+      </div>
+    </div>
+  );
 };
