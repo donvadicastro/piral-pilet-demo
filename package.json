@@ -2,9 +2,13 @@
   "name": "@donvadicastro/intapp-pilet-demo",
   "version": "1.0.3",
   "description": "",
-  "keywords": ["pilet"],
+  "keywords": [
+    "pilet"
+  ],
   "importmap": {
-    "inherit": ["@donvadicastro/intapp-host-demo"]
+    "inherit": [
+      "@donvadicastro/intapp-host-demo"
+    ]
   },
   "devDependencies": {
     "@dbeining/react-atom": "4.1.21",
@@ -36,7 +40,9 @@
     "publish": "pilet publish --fresh --url https://feed.piral.cloud/api/v1/pilet/intapp-test-feed --api-key"
   },
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "piral": {
     "comment": "Keep this section to use the Piral CLI.",
     "name": "@donvadicastro/intapp-host-demo"
