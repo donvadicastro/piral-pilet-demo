@@ -1,12 +1,10 @@
-import * as React from 'react';
 import { PiletApi } from '@donvadicastro/intapp-host-demo';
-
-const Page = React.lazy(() => import('./components/Page'));
-const Tile = React.lazy(() => import('./components/Tile'));
-const Menu = React.lazy(() => import('./components/Menu'));
+import { Menu } from './components/Menu';
+import { Page } from './components/Page';
+import { Tile } from './components/Tile';
 
 export function setup(app: PiletApi) {
-  app.registerPage('/productPage', Page);
+  app.registerPage('/users', Page);
   app.registerTile(Tile);
   app.registerMenu(Menu);
 }
